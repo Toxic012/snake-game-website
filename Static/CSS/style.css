@@ -1,0 +1,42 @@
+body {
+  background: #111;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+.menu {
+  margin-top: 150px;
+}
+
+.menu h1 {
+  font-size: 3em;
+  color: lime;
+}
+
+.menu button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: lime;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.menu button:hover {
+  background: green;
+}
+
+.game-container {
+  display: none;
+  margin-top: 40px;
+}
+
+canvas {
+  border: 5px solid white;
+}
+
+#scorePanel {
+  margin-top: 20px;
+  font-size: 20px;
+}
